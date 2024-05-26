@@ -11,3 +11,12 @@ else:
     storage = FileStorage()
 
 storage.reload()
+CNC = {
+    'BaseModel': BaseModel,
+    'User': User,
+    'State': State,
+    'City': City,
+    'Amenity': Amenity,
+    'Place': Place,
+    'Review': Review
+}
